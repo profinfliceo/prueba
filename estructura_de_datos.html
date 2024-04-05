@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Estructura de datos | Introducción a la Programación con PseInt </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Carlos Rodríguez Rosano" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Introducción a la Programación con PseInt</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Introducción a la Programación con PseInt</a></li>
+   <li><a href="el_objetivo.html" class="no-ch">El objetivo</a></li>
+   <li><a href="introduccin_a_la_programacin.html" class="daddy">Introducción a la Programación</a>
+   <ul class="other-section">
+      <li><a href="comprensin_del_problema.html" class="no-ch">Comprensión del Problema</a></li>
+      <li><a href="encontrar_una_solucin.html" class="no-ch">Encontrar una solución</a></li>
+      <li><a href="enunciar_un_algoritmo.html" class="no-ch">Enunciar un Algoritmo</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="estructura_de_un_programa.html" class="current-page-parent daddy">Estructura de un programa</a>
+   <ul>
+      <li><a href="el_cdigo.html" class="daddy">El código</a>
+      <ul class="other-section">
+         <li><a href="sintaxis.html" class="no-ch">Sintaxis</a></li>
+         <li><a href="instrucciones.html" class="no-ch">Instrucciones</a></li>
+         <li><a href="sentencias.html" class="no-ch">Sentencias</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="estructura_de_datos.html" class="active no-ch">Estructura de datos</a></li>
+      <li><a href="expresiones.html" class="daddy">Expresiones</a>
+      <ul class="other-section">
+         <li><a href="operadores.html" class="no-ch">Operadores</a></li>
+         <li><a href="reglas_de_precedencia.html" class="no-ch">Reglas de precedencia</a></li>
+         <li><a href="operadores_lgicos.html" class="no-ch">Operadores Lógicos</a></li>
+      </ul>
+      </li>
+      <li><a href="delimitadores.html" class="no-ch">Delimitadores</a></li>
+   </ul>
+   </li>
+   <li><a href="comenzando_a_programar.html" class="daddy">Comenzando a programar</a>
+   <ul class="other-section">
+      <li><a href="algoritmo_de_suma.html" class="no-ch">Algoritmo de suma</a></li>
+      <li><a href="algoritmo_del_tringulo.html" class="no-ch">Algoritmo del triángulo</a></li>
+   </ul>
+   </li>
+   <li><a href="comenzando_con_la_programacin_estructurada.html" class="daddy">Comenzando con la programación estructurada</a>
+   <ul class="other-section">
+      <li><a href="estructura_de_decisin.html" class="daddy">Estructura de Decisión</a>
+      <ul class="other-section">
+         <li><a href="realizar_el_ejercicio_resolucin_de_ecuacin_de_segundo_grado.html" class="no-ch">Realizar el ejercicio resolución de Ecuación de Segundo Grado</a></li>
+      </ul>
+      </li>
+      <li><a href="estructura_repetitiva.html" class="daddy">Estructura Repetitiva</a>
+      <ul class="other-section">
+         <li><a href="algoritmo_de_la_tabla_de_multiplicar.html" class="no-ch">Algoritmo de la Tabla de Multiplicar</a></li>
+      </ul>
+      </li>
+      <li><a href="estructura_iterativa.html" class="no-ch">Estructura Iterativa</a></li>
+      <li><a href="variables_especiales.html" class="daddy">Variables especiales</a>
+      <ul class="other-section">
+         <li><a href="variable_contadora.html" class="no-ch">Variable contadora</a></li>
+         <li><a href="variable_acumuladora.html" class="no-ch">Variable acumuladora</a></li>
+         <li><a href="variable_flag_bandera_o_seal.html" class="no-ch">Variable flag, bandera o señal</a></li>
+      </ul>
+      </li>
+      <li><a href="intercambio_de_variables_o_swap.html" class="no-ch">Intercambio de variables o swap</a></li>
+   </ul>
+   </li>
+   <li><a href="funciones.html" class="daddy">Funciones</a>
+   <ul class="other-section">
+      <li><a href="matemticas.html" class="no-ch">Matemáticas</a></li>
+      <li><a href="trigonomtricas.html" class="no-ch">Trigonométricas</a></li>
+      <li><a href="funciones_de_cadena_de_texto.html" class="no-ch">Funciones de cadena de texto</a></li>
+   </ul>
+   </li>
+   <li><a href="arrays.html" class="daddy">Arrays</a>
+   <ul class="other-section">
+      <li><a href="dimensin_e_ndice.html" class="no-ch">Dimensión e índice</a></li>
+      <li><a href="declaracin_de_una_variable_de_tipo_array.html" class="no-ch">Declaración de una variable de tipo array</a></li>
+      <li><a href="vectores.html" class="daddy">Vectores</a>
+      <ul class="other-section">
+         <li><a href="carga_de_un_vector.html" class="no-ch">Carga de un vector</a></li>
+         <li><a href="procesamiento_del_vector_cargado.html" class="no-ch">Procesamiento del vector cargado</a></li>
+         <li><a href="bsqueda_y_muestra_del_vector.html" class="no-ch">Búsqueda y muestra del vector</a></li>
+         <li><a href="ordenamiento_de_un_vector.html" class="no-ch">Ordenamiento de un vector</a></li>
+         <li><a href="ordenamiento_por_burbujeo.html" class="no-ch">Ordenamiento por Burbujeo</a></li>
+         <li><a href="primera_optimizacin_acortamiento_del_ciclo_de_burbujeo.html" class="no-ch">Primera optimización, acortamiento del ciclo de burbujeo</a></li>
+         <li><a href="segunda_optimizacin_detectar_vector_ordenado.html" class="no-ch">Segunda optimización, detectar vector ordenado</a></li>
+         <li><a href="tercera_optimizacin_ciclos_alternados.html" class="no-ch">Tercera optimización, ciclos alternados</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="archivos.html" class="daddy">Archivos</a>
+   <ul class="other-section">
+      <li><a href="estructura_de_un_archivo_de_datos.html" class="daddy">Estructura de un archivo de datos</a>
+      <ul class="other-section">
+         <li><a href="abrir_un_archivo.html" class="no-ch">Abrir un archivo</a></li>
+         <li><a href="leer_el_archivo.html" class="no-ch">Leer el archivo</a></li>
+         <li><a href="detectar_el_final_del_archivo.html" class="no-ch">Detectar el final del archivo</a></li>
+         <li><a href="guardar_datos_en_un_archivo.html" class="no-ch">Guardar datos en un archivo</a></li>
+         <li><a href="cierre_de_un_archivo.html" class="no-ch">Cierre de un archivo</a></li>
+      </ul>
+      </li>
+   </ul>
+   </li>
+   <li><a href="algoritmos_tpicos.html" class="daddy">Algoritmos típicos</a>
+   <ul class="other-section">
+      <li><a href="creacin_de_un_archivo.html" class="no-ch">Creación de un archivo</a></li>
+      <li><a href="lectura_del_archivo_creado.html" class="no-ch">Lectura del archivo creado</a></li>
+      <li><a href="trabajar_con_2_archivos.html" class="no-ch">Trabajar con 2 archivos</a></li>
+      <li><a href="corte_de_control.html" class="no-ch">Corte de control</a></li>
+   </ul>
+   </li>
+   <li><a href="propuestas_de_ejercicios.html" class="no-ch">Propuestas de ejercicios</a></li>
+   <li><a href="crditos.html" class="no-ch">Créditos</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="sentencias.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="expresiones.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Estructura de datos</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id11">
+<div class="iDevice emphasis0" >
+<div id="ta11_120_2" class="block iDevice_content">
+<div class="exe-text"><p>La estructura de datos está formada por el conjunto de datos <strong>variables </strong>que requiere el programa. Los datos constantes no forman parte de la estructura de datos ya que estos, por el mismo hecho de ser constantes, se almacenan como parte del código.</p>
+<p>Los lenguajes de programación definen su propias reglas para la definición de las estructuras de datos, pero en el caso del pseudocódigo resumiremos esas reglas en la siguientes:</p>
+<p>Las variables se definen por un <strong>nombre </strong>y un <strong>tipo primitivo</strong>.</p>
+<p>Respecto al <strong>nombre, </strong>cada variable debe poseer un nombre único, éste debe comenzar por una letra (vocal o consonante) y luego puede continuar con un conjunto de letras o números. Queda prohibido como parte del nombre cualquier símbolo y tampoco se admiten espacios.</p>
+<p>Respecto a los <strong>tipos primitivos </strong>de datos, existen tan solo tres:</p>
+<ul>
+<li>El tipo <strong>lógico </strong>o <strong>booleano</strong>, el cual representa un dato que puede tener sólo dos posibles valores: <strong>verdadero </strong>o <strong>falso</strong>.</li>
+<li>El tipo <strong>numérico</strong>, el cual representa un dato que puede operarse matemáticamente, por ejemplo una medida, el resultado de un cálculo, este valor debe pertenece al conjunto de números reales.</li>
+<li>El tipo <strong style="color: #333333; font-size: 1.05em;">alfanumérico</strong><span style="color: #333333; font-size: 1.05em;"><span style="color: #333333; font-size: 1.05em;">, el cual representa un dato que no es matemático, por ejemplo un nombre, una denominación, un código, etc. a los </span></span>alfanuméricos también se los conoce como <strong style="font-size: 1.05em;">strings </strong><span style="font-size: 1.05em;">o cadenas de texto.</span><span style="font-size: 1.05em;"></span></li>
+</ul>
+<p><span style="font-size: 1.05em;"></span></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="sentencias.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="expresiones.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
